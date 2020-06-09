@@ -1,0 +1,11 @@
+body{
+    background: #e52d27;  
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  
+    background: linear-gradient(to right, #b31217, #e52d27); 
+
+    color: #000;
+}
+
+#contentWrap{
+    display: none;
+}

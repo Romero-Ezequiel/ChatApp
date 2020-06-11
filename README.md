@@ -6,10 +6,10 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 #### Construido con 🛠️
 
 * [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) - Es un lenguaje de programación que se utiliza principalmente para crear páginas web dinámicas.
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice.
 * [Node.js](https://nodejs.org/es/) - Es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
 * [Express](https://expressjs.com/es/) - Es un framework de nodejs que nos permite crear un servidor de manera muy sencilla.
-* [Bootstrap](https://getbootstrap.com/) - Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice.
-* [WebSocket.io]() - 
+* [WebSockets]() - 
 * [Nodemon]() - .
 * [MongoDB]() - .
 * [Heroku]() - .

@@ -1,6 +1,5 @@
 # Chat Grupal
 
-#### Ejemplo práctico utilizando JavaScript: 
 _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una aplicación básica de un chat grupal. El chat tiene un registro que cualquier persona quiera entrar al chat, tiene que agregar su nombre de usuario y luego puede ingresar al chat, para hablar con las personas que ya estan dentro del chat._
 
 #### Construido con 🛠️

@@ -9,6 +9,7 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 * [Node.js](https://nodejs.org/es/) - Es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
 * [Express](https://expressjs.com/es/) - Es un framework de nodejs que nos permite crear un servidor de manera muy sencilla.
 * [WebSockets]() - 
+* [JQuery]() - 
 * [Nodemon]() - .
 * [MongoDB]() - .
 * [Heroku]() - .

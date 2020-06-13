@@ -9,13 +9,13 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 * [Node.js](https://nodejs.org/es/) - Es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
 * [Express](https://expressjs.com/es/) - Es un framework de nodejs que nos permite crear un servidor de manera muy sencilla.
 * [Socket.IO](https://socket.io/) - Este modulo me permite realizar la funcionalidad de tiempo real del chat. 
-* [JQuery](https://jquery.com/) - Lo utilizo para mostrar los mensajes 
 * [Nodemon](https://nodemon.io/) - Este modulo me permite reinicar el servidor sin tenerlo que ejecutar de nuevo.
 * [MongoDB](https://www.mongodb.com/es) - .
 * [Heroku](https://www.heroku.com/) - .
 
 
 #### Instalación 🔧
+
 _Para la instalación de las dependencias del proyecto del chat, se tiene que ejecutar en la consola el siguiente comando:_ 
 ```
 npm install

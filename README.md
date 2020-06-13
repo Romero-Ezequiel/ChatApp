@@ -16,5 +16,15 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 
 
 #### Instalación 🔧
+_Para la instalación de las dependencias del proyecto del chat, se tiene que ejecutar en la consola el siguiente comando:_ 
+```
+npm install
+```
 
+_Por ultimo para visualizar el proyecto se tiene que ejecutar el siguiente comando:_
+```
+npm run dev
+```
+
+#### Demo 
 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App</title>
+
+  <!-- CDN DE BOOTSWATCH -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cosmo/bootstrap.min.css">
+  
+  <!-- CDN DE FONT AWESOME -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <!--nav class="navbar navbar-dark bg-warning">
+    <a class="navbar-brand mx-auto" href="/">
+      Javascript FullStack Chat
+    </a>
+  </nav-->
+
+  <!-- Todo el contenido está dentro de un contenedor y dentro de 
+  este contenedor creo un espacio que almacene todo el chat -->
+  <div class="container p-4 contenedor">
+
+    <!-- NICKNAME FORM -->
+    <div id="nickWrap">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <div class="card">
+            <div class="card-header bg-dark text-white">
+              <h3 class="NombreUsuario">Usuarios</h3>
+            </div>
+            <p id="nickError"></p>
+            <div class="card-body">
+              <form id="nickForm">
+                <input id="nickname" type="text" class="form-control" autofocus />
+                <!--input type="submit" class="btn btn-warning btn-block mt-2" /-->
+                <button type="submit" class="btn btn-warning mt-2 botonUsuario">
+                  <i class="fas fa-location-arrow"></i> Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contenedor del Chat -->
+    <div id="contentWrap">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <!-- Tarjeta cabecera -->
+            <div class="card-header bg-dark text-white">
+              <h4>Chat Grupal</h3>
+            </div>
+
+            <!-- Este es el cuerpo de la tarjeta -->
+            <div id="chat" class="card-body"></div>
+
+            <!-- Este es el footer de la tarjeta del cha -->
+            <form id="message-form" class="card-footer">
+              <div class="input-group">
+                <input type="text" id="message" class="form-control" />
+                <div class="input-group-append">
+                  <button class="btn btn-warning">
+                    <i class="fas fa-location-arrow"></i> Send
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contenedor para los usuarios -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header bg-dark text-white">
+              <h3>Usuarios</h3>
+            </div>
+            <div class="card-body">
+              <div id="usernames"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

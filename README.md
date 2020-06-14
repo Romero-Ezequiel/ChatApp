@@ -11,7 +11,7 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 * [Socket.IO](https://socket.io/) - Este modulo me permite realizar la funcionalidad de tiempo real del chat. 
 * [Nodemon](https://nodemon.io/) - Este modulo me permite reinicar el servidor sin tenerlo que ejecutar de nuevo.
 * [MongoDB](https://www.mongodb.com/cloud/atlas) - .
-* [Heroku]
+
 
 
 #### Instalación 🔧

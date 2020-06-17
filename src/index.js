@@ -34,7 +34,10 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
-mongoose.connect('mongodb://localhost/chat-database')
+//mongoose.connect('mongodb://localhost/chat-database')
+// Utilice mongodb Atlas para guardas los datos en la base de datos
+// en la nube para poder desplegarlo en heroku
+mongoose.connect('mongodb+srv://eze:Elrtl0ot57wB31wW@cluster0-s7zol.mongodb.net/chat-database?retryWrites=true&w=majority')
     .then(db => console.log('La base de datos está conectada'))
     .catch(err => console.log(err));
 

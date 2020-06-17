@@ -1,6 +1,7 @@
 # Chat Grupal
 
-_Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una aplicación básica de un chat grupal. El chat tiene un registro que cualquier persona quiera entrar al chat, tiene que agregar su nombre de usuario y luego puede ingresar al chat, para hablar con las personas que ya estan dentro del chat._
+_Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una aplicación básica de un chat grupal. El chat tiene un registro que cualquier persona quiera entrar al chat, tiene que agregar su nombre de usuario y luego puede ingresar al chat, para hablar con las personas que ya estan dentro del chat. 
+Para ver el proyecto terminado, hacer click al siguiente enlace *[ChatApp](https://chat-grupal.herokuapp.com/)_
 
 #### Construido con 🛠️
 
@@ -10,6 +11,7 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 * [Express](https://expressjs.com/es/) - Es un framework de nodejs que nos permite crear un servidor de manera muy sencilla.
 * [Socket.IO](https://socket.io/) - Este modulo me permite realizar la funcionalidad de tiempo real del chat. 
 * [nodemon](https://nodemon.io/) - Este modulo me permite reinicar el servidor sin tenerlo que ejecutar de nuevo.
+* [Mongodb Atlas](https://www.mongodb.com/cloud/atlas) - Lo utilice para almacenar los mensajes y usuarios en la nube.  
 * [Heroku](https://www.heroku.com/) - Lo utilice para desplegar el proyecto.  
 
 #### Instalación 🔧

@@ -7,23 +7,17 @@
 
   <!-- CDN DE BOOTSWATCH -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cosmo/bootstrap.min.css">
-  
+
   <!-- CDN DE FONT AWESOME -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
     integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
     crossorigin="anonymous"></script>
-  
+
   <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <!--nav class="navbar navbar-dark bg-warning">
-    <a class="navbar-brand mx-auto" href="/">
-      Javascript FullStack Chat
-    </a>
-  </nav-->
 
   <!-- Todo el contenido está dentro de un contenedor y dentro de 
   este contenedor creo un espacio que almacene todo el chat -->
@@ -41,7 +35,6 @@
             <div class="card-body">
               <form id="nickForm">
                 <input id="nickname" type="text" class="form-control" autofocus />
-                <!--input type="submit" class="btn btn-warning btn-block mt-2" /-->
                 <button type="submit" class="btn btn-warning mt-2 botonUsuario">
                   <i class="fas fa-location-arrow"></i> Enviar
                 </button>
@@ -65,13 +58,13 @@
             <!-- Este es el cuerpo de la tarjeta -->
             <div id="chat" class="card-body"></div>
 
-            <!-- Este es el footer de la tarjeta del cha -->
+            <!-- Este es el footer de la tarjeta del chat -->
             <form id="message-form" class="card-footer">
               <div class="input-group">
                 <input type="text" id="message" class="form-control" />
                 <div class="input-group-append">
                   <button class="btn btn-warning">
-                    <i class="fas fa-location-arrow"></i> Send
+                    <i class="fas fa-location-arrow"></i>
                   </button>
                 </div>
               </div>
@@ -92,7 +85,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
   <!-- SCRIPTS -->

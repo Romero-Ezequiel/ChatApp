@@ -10,8 +10,7 @@ _Utilice JavaScript tanto en el Frontend como en el Backend, para realizar una a
 * [Express](https://expressjs.com/es/) - Es un framework de nodejs que nos permite crear un servidor de manera muy sencilla.
 * [Socket.IO](https://socket.io/) - Este modulo me permite realizar la funcionalidad de tiempo real del chat. 
 * [nodemon](https://nodemon.io/) - Este modulo me permite reinicar el servidor sin tenerlo que ejecutar de nuevo.
-* [Heroku](https://nodemon.io/) - Este modulo me permite reinicar el servidor 
-
+* [Heroku](https://nodemon.io/) - 
 
 #### Instalación 🔧
 

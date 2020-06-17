@@ -25,4 +25,6 @@ npm run dev
 ```
 
 #### Demo 
+![Peek 12-06-2020 23-49](https://user-images.githubusercontent.com/54491030/84929464-3a749500-b0a6-11ea-995e-ce57dd06dd32.gif)
+
 
